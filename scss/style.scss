@@ -292,7 +292,7 @@ html {
                     position: relative;
     
                     .mainObject {
-                        width: 1432px;
+                        width: 1300px;
                         height: 605px;
                         background: url(../img/f8_car.png) no-repeat;
                         background-size: contain;
@@ -300,8 +300,6 @@ html {
                         bottom: 0;
                         right: -178px;
                         z-index: 4;
-                        transform: scale(0.3);
-                        filter: blur(15px);
                         opacity: 1;
                         animation: showIn 0.5s ease-in forwards;
                     }
@@ -366,7 +364,7 @@ html {
         bottom: 0px;
         right: -178px;
         transform: scale(1);
-        filter: blur(1px);
+        filter: blur(0px);
         opacity: 1;
     }
 }

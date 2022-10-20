@@ -1,20 +1,11 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "my_font";
-  src: local("Heiti TC"), local("微軟正黑體"), local("Microsoft JhengHei");
-  unicode-range: U+4E00-9FFF, U+2E80-2EFF, U+0020-007F;
-}
-@font-face {
-  font-family: "my_font";
-  src: url(../font/Bahnschrift.TTF);
-  unicode-range: U+0020-007F;
-}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
 center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
+  font-family: "微軟正黑體";
   font: inherit;
   vertical-align: baseline;
 }
@@ -323,7 +314,7 @@ html body main .center .bottom {
   position: relative;
 }
 html body main .center .bottom .mainObject {
-  width: 1432px;
+  width: 1300px;
   height: 605px;
   background: url(../img/f8_car.png) no-repeat;
   background-size: contain;
@@ -331,10 +322,6 @@ html body main .center .bottom .mainObject {
   bottom: 0;
   right: -178px;
   z-index: 4;
-  -webkit-transform: scale(0.3);
-          transform: scale(0.3);
-  -webkit-filter: blur(15px);
-          filter: blur(15px);
   opacity: 1;
   -webkit-animation: showIn 0.5s ease-in forwards;
           animation: showIn 0.5s ease-in forwards;
@@ -408,8 +395,8 @@ html body main .bg {
     right: -178px;
     -webkit-transform: scale(1);
             transform: scale(1);
-    -webkit-filter: blur(1px);
-            filter: blur(1px);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
     opacity: 1;
   }
 }
@@ -451,8 +438,8 @@ html body main .bg {
     right: -178px;
     -webkit-transform: scale(1);
             transform: scale(1);
-    -webkit-filter: blur(1px);
-            filter: blur(1px);
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
     opacity: 1;
   }
 }
