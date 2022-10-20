@@ -42,7 +42,7 @@ table {
 }
 
 button {
-  font-family: "my_font";
+  font-family: "微軟正黑體";
   border: none;
   outline: none;
   cursor: pointer;
@@ -50,12 +50,12 @@ button {
 }
 
 select, input {
-  font-family: "my_font";
+  font-family: "微軟正黑體";
   outline: none;
 }
 
 html {
-  font-family: "my_font";
+  font-family: "微軟正黑體";
   background: white;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -200,7 +200,7 @@ html body main .center .top .inputBox .input label input {
   background: linear-gradient(0deg, #d7d7d7 0%, #e8ebee 25%, #e8ebee 60%, #cacecf 100%);
   border: 2px solid #ffffff;
   color: #000000;
-  font-size: 20px;
+  font-size: 22px;
   padding: 0 25px 0 55px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -237,7 +237,7 @@ html body main .center .top .inputBox .input label .inputIcon {
   background: url(../img/inputIcon.png) no-repeat;
   background-size: 200%;
   position: absolute;
-  top: 9px;
+  top: 11px;
   left: 29px;
 }
 html body main .center .top .inputBox .input label .inputIcon.id {
